@@ -1,11 +1,11 @@
 Resources:
-  Bucket:
+  Bucket1:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: 'yaadavv-bucket-1'
-  Instance:
+      BucketName: 'Yaadav-bucket-1'
+  Instance1:
     Type: 'AWS::EC2::Instance'
     Properties:
       KeyName: 'kp1'
-      InstanceType: 't2.micro'
+      InstanceType: 't3.micro'
       ImageId: 'ami-02f624c08a83ca16f'
