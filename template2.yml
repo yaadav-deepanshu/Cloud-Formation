@@ -2,7 +2,7 @@ Resources:
   Bucket1:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: 'Yaadav-bucket-1'
+      BucketName: 'yaadav-bucket-1'
   Instance1:
     Type: 'AWS::EC2::Instance'
     Properties:
