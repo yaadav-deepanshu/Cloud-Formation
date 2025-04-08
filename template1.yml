@@ -5,7 +5,7 @@ Resources:
       BucketName: 'yaadavv-bucket-1'
   Instance:
     Type: 'AWS::EC2::Instance'
-    Properties:
+    Properties: 
       KeyName: 'kp1'
       InstanceType: 't2.micro'
       ImageId: 'ami-02f624c08a83ca16f'
